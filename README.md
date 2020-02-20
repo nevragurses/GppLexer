@@ -1,4 +1,4 @@
-Given the description of the G++ language in  G++Syntax.pdf
+Given the description of the G++ language in  G++Syntax.pdf.
 I implemented a lexer that does the tokenization of any set of valid G++ expressions or statements.  
 Lexical analysis rules of G++ is explained in the first 4 pages of G++Syntax.pdf. 
 Lexically incorrect statements or expressions should be identified, and an error should be generated. 
