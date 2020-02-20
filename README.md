@@ -10,7 +10,6 @@ Both lexers  start the interpreter. It read one line at a time from the user and
 All of rules about project is explaned in Homework 2 pdf file.
 
 To use these lexers, follow these instructions:
-
 1)For clisp lexer: Run the program like this: "clisp gpp_lexer.lisp".
 2)For flex lexer:  Firstly: "lex gpp_lexer.l".
 		   After: "gcc lex.yy.c".
