@@ -8,3 +8,15 @@ I implemented the lexer in two different ways:
 Both lexers  start the interpreter. It read one line at a time from the user and check if the input lexically correct while generating the tokens for later processing.
 
 All of rules about project is explaned in Homework 2 pdf file.
+
+To use these lexers, follow these instructions:
+
+a)For clisp lexer: Run the program like this: "clisp gpp_lexer.lisp"
+b)For flex lexer:  Firstly: "lex gpp_lexer.l"
+		   After: "gcc lex.yy.c"
+		   Then: "./a.out"
+
+2-Dollar sign($)  come to screen.
+
+3-Then if you want run file lexer you should enter "g++ filename .g++" .
+or if you want run terminal lexer you should enter only "g++"
